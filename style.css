@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+.container {
+    border: 1px solid pink;
+    width: 90%;
+    max-width: 1500px;
+    margin-inline: auto;
+}
+
+.i {
+    width: 180px;
+    height: 90px;
+    background-color: pink;
+    border-radius: 2rem;
+}
