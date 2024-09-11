@@ -7,3 +7,4 @@ Here is a rough layout view:
 Here is an end user view:
 ![image](https://github.com/user-attachments/assets/b2f5f195-7341-47a5-ab22-b5bdd8f6a589)
 
+You can customise and use this animation as per your intrests.
