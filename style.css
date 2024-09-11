@@ -2,8 +2,14 @@
     margin: 0;
 }
 
+h1 {
+    font-size: 3rem;
+    font-family: Courier;
+    position: absolute;
+}
+
 .box {
-    background-color: black;
+    background-color: rgb(236, 207, 255);
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -11,20 +17,17 @@
 }
 
 .container {
-    border: 1px solid pink;
     width: 90%;
     max-width: 1500px;
     margin-inline: auto;
     position: relative;
     height: 90px;
     overflow: hidden;
-    mask-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 1) 20%,
-        rgba(0, 0, 0, 1) 80%,
-        rgba(0, 0, 0, 0)
-        );
+    mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0));
 }
 
 @keyframes scrollright {
@@ -36,8 +39,6 @@
 .i {
     width: 180px;
     height: 90px;
-    background-color: pink;
-    border-radius: 2rem;
     position: absolute;
     right: calc(200px * 8);
     animation: scrollright 30s linear infinite;
@@ -47,32 +48,64 @@
 
 .item1 {
     animation-delay: calc(30s / 8 * (8 - 1) * -1);
+    background-image: url(images/cn.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .item2 {
     animation-delay: calc(30s / 8 * (8 - 2) * -1);
+    background-image: url(images/20thtele.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .item3 {
     animation-delay: calc(30s / 8 * (8 - 3) * -1);
+    background-image: url(images/disney.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .item4 {
     animation-delay: calc(30s / 8 * (8 - 4) * -1);
+    background-image: url(images/ghibli.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .item5 {
     animation-delay: calc(30s / 8 * (8 - 5) * -1);
+    background-image: url(images/mgm.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .item6 {
     animation-delay: calc(30s / 8 * (8 - 6) * -1);
+    background-image: url(images/wbclassic.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .item7 {
     animation-delay: calc(30s / 8 * (8 - 7) * -1);
+    background-image: url(images/pogo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .item8 {
     animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    background-image: url(images/shin-ei.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
