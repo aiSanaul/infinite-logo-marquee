@@ -2,18 +2,27 @@
     margin: 0;
 }
 
-h1 {
-    font-size: 3rem;
-    font-family: Courier;
-    position: absolute;
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
 
-.box {
+.heading {
+    font-size: 5rem;
     background-color: rgb(236, 207, 255);
     display: flex;
     width: 100vw;
-    height: 100vh;
+    padding-top: 4rem;
     align-items: center;
+    justify-content: center;
+}
+
+.separator {
+    background-color: rgb(236, 207, 255);
+    align-content: center;
+    flex: 1;
 }
 
 .container {
